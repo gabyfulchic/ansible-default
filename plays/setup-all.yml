@@ -1,0 +1,8 @@
+---
+
+- name: desc of playbook
+  hosts: group_host_in_file_hosts
+  roles:
+    - name_of_your_roles
+    - name_of_your_roles
+    - name_of_your_roles
