@@ -6,7 +6,7 @@ Ansible default repo to well begin an Ansible project. You can clone it to use K
 > git clone https://github.com/gabyfulchic/ansible-default.git  
     
   # Only use move.sh when you need to copy files from ansible-default  
-  to your project folder where you want to initiate a ansible project.  
+  # to your project folder where you want to initiate a ansible project.  
   
 > chmod +x ansible-default/move.sh  
 > bash ansible-default/move.sh  
