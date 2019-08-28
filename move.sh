@@ -13,6 +13,7 @@ then
 	    (ex: /home/toto/yourproject/) : " external_project_path
     sudo rm -rf ansible-default/.git ansible-default/README.md
     cp -R ansible-default/* $external_project_path
+    sudo rm -rf ansible-default/
 else
     echo "PLEASE ENTER A VALID ANSWER"
 fi
