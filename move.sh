@@ -12,7 +12,7 @@ then
     read -p "Give me the path of your project : \
 	    (ex: /home/toto/yourproject/) : " external_project_path
     sudo rm -rf ansible-default/.git ansible-default/README.md
-    cp -R ansible-default/* external_project_path
+    cp -R ansible-default/* $external_project_path
 else
     echo "PLEASE ENTER A VALID ANSWER"
 fi
